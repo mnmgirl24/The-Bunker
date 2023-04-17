@@ -53,6 +53,10 @@ h2 {
 }
 
 h3 {
+    font-size: 2rem;
+}
+
+h4 {
     font-size: 1.8rem;
 }
 
@@ -64,18 +68,20 @@ h3 {
     font-size: 2rem;;
 }
 
-footer h2 {
+.logo {
     font-size: 6rem;
     line-height: 0.9;
 }
 
-p, a {
+p, li {
+    font-weight: 300;   
     line-height: 1.4;
-    margin-bottom: 1rem;
-    font-size: 1.3rem;
-}
-
-p:last-child {
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+   }
+   
+p:last-child, 
+li:last-child {
     margin-bottom: 0;
 }
 
@@ -111,18 +117,10 @@ a:hover {
     padding: 0;
 }
 
-.about {
-    padding: 3rem;
-}
-
 .middle {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.social-banner {
-    padding: 3rem;
 }
 
 .copyright {
@@ -173,13 +171,12 @@ a:hover {
     background-image: url("/images/the-bunker-7.jpg");
 }
 
-.img-tree {
-    background-image: url("/images/the-bunker-5.jpg");
-    background-position: center top;
-}
-
 .img-map {
     background-image: url("/images/map-sydney.png");
+}
+
+.social-banner {
+    background-position: 10% 30%;
 }
 
 
@@ -266,3 +263,20 @@ a:hover {
 
 .margin-tb { margin-top: 5%; margin-bottom: 5%; }
 .margin-lr { margin-left: 5%; margin-right: 5%; }
+
+
+
+/* SM - max-width in pixels approximately 768px */
+@media (max-width: 48em) {
+    .flex-flip-sm { flex-direction: column-reverse; }
+
+    .logo {
+        font-size: 4rem;
+        padding-bottom: 1rem;
+    }
+    .social-banner {
+        background-image: none;
+        background-color: #1C2A2C;
+        min-height: 30vh;
+    }
+}
