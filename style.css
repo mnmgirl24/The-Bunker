@@ -148,31 +148,31 @@ a:hover {
 
 /* Images */
 .img-hotel {
-    background-image: url("/images/the-bunker-5.jpg");
+    background-image: url("images/the-bunker-5.jpg");
 }
 
 .img-bed {
-    background-image: url("/images/the-bunker-1.jpg");
+    background-image: url("images/the-bunker-1.jpg");
 }
 
 .img-hallway {
-    background-image: url("/images/the-bunker-3.jpg");
+    background-image: url("images/the-bunker-3.jpg");
 }
 
 .img-lobby {
-    background-image: url("/images/the-bunker-4.jpg");
+    background-image: url("images/the-bunker-4.jpg");
 }
 
 .img-bar {
-    background-image: url("/images/the-bunker-2.jpg");
+    background-image: url("images/the-bunker-2.jpg");
 }
 
 .img-sheets {
-    background-image: url("/images/the-bunker-7.jpg");
+    background-image: url("images/the-bunker-7.jpg");
 }
 
 .img-map {
-    background-image: url("/images/map-sydney.png");
+    background-image: url("images/map-sydney.png");
 }
 
 .social-banner {
