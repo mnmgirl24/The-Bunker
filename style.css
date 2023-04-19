@@ -147,6 +147,13 @@ a:hover {
 
 
 /* Images */
+.bg-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #24282B;
+}
+
 .img-hotel {
     background-image: url("images/the-bunker-5.jpg");
 }
@@ -188,14 +195,6 @@ a:hover {
 .text-right {text-align: right;}
 .text-center {text-align: center;}
 
-
-/* Image Utility Classes */
-.bg-img {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #24282B;
-}
 
 /* Size utility classes */
 .tall-50 {min-height: 50vh;}
