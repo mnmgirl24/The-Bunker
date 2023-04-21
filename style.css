@@ -24,169 +24,14 @@ section {
     box-sizing: border-box;
 }
 
-body {
-    font-family: "Raleway", sans-serif;
-}
-
-footer {
-    background-color: #24282B;
-}
-
-
-
-/* Text styles */
-h1, 
-h2, 
-h3, 
-h4 {
-    text-transform: uppercase;
-    font-weight: 900;
-    margin-bottom: 0.5rem;
-}
-
-h1 {
-    font-size: 13vw;
-}
-
-h2 {
-    font-size: 2.5rem;
-}
-
-h3 {
-    font-size: 2rem;
-}
-
-h4 {
-    font-size: 1.8rem;
-}
-
-.features h2 {
-    margin-bottom: 1rem;
-}
-
-.social-banner h2 {
-    font-size: 2rem;;
-}
-
-.logo {
-    font-size: 6rem;
-    line-height: 0.9;
-}
-
-p, li {
-    font-weight: 300;   
-    line-height: 1.4;
-    margin-bottom: 0.8rem;
-    font-size: 1.1rem;
-   }
-   
-p:last-child, 
-li:last-child {
-    margin-bottom: 0;
-}
-
-a {
-    font-weight: 500;
-    color: inherit;
-    text-decoration: none;
-    display: inline-block;
-}
-
-a:hover {
-    color: #1C2A2C;
-}
-
-.bold-text {
-    font-weight: 500;
-}
-
-.social-icons a {
-    margin-bottom: 0;
-}
-
-.fa-brands {
-    font-size: 2rem;
-    padding-left: 1rem;
-    margin: 1rem;
-    transition: all 0.1s;
-}
-
-
-/* Section styles */
 [class*=grid-][class*=col-], [class*=grid-][class*=col_], [class*=grid-][class~=col], [class*=grid_][class*=col-], [class*=grid_][class*=col_], [class*=grid_][class~=col], [class~=grid][class*=col-], [class~=grid][class*=col_], [class~=grid][class~=col] {
     padding: 0;
+    margin: 0;
 }
 
-.middle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+[class*=grid-], [class*=grid_], [class~=grid] {
+    margin: 0;
 }
-
-.copyright {
-    padding: 2rem;
-    font-size: 1rem;
-    opacity: 70%;
-}
-
-
-
-/* Styles */
-.bg-dark {
-    background-color: #1C2A2C;
-    color: white;
-}
-
-.bg-padded {
-    padding-bottom: 30%;
-}
-
-.light-text {
-    color: white;
-}
-
-
-/* Images */
-.bg-img {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #24282B;
-}
-
-.img-hotel {
-    background-image: url("images/the-bunker-5.jpg");
-}
-
-.img-bed {
-    background-image: url("/images/the-bunker-1.jpg");
-}
-
-.img-hallway {
-    background-image: url("/images/the-bunker-3.jpg");
-}
-
-.img-lobby {
-    background-image: url("/images/the-bunker-4.jpg");
-}
-
-.img-bar {
-    background-image: url("/images/the-bunker-2.jpg");
-}
-
-.img-sheets {
-    background-image: url("/images/the-bunker-7.jpg");
-}
-
-.img-map {
-    background-image: url("/images/map-sydney.png");
-}
-
-.social-banner {
-    background-position: 0% 20%;
-}
-
-
 
 /* Utility classes */
 
@@ -262,6 +107,171 @@ a:hover {
 
 .margin-tb { margin-top: 5%; margin-bottom: 5%; }
 .margin-lr { margin-left: 5%; margin-right: 5%; }
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+footer {
+    background-color: #24282B;
+}
+
+
+
+/* Text styles */
+h1, 
+h2, 
+h3, 
+h4 {
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    font-size: 13vw;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+.features h2 {
+    margin-bottom: 1rem;
+}
+
+.social-banner h2 {
+    font-size: 2rem;;
+}
+
+.logo {
+    font-size: 6rem;
+    line-height: 0.9;
+}
+
+p, li {
+    font-weight: 300;   
+    line-height: 1.4;
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+   }
+   
+p:last-child, 
+li:last-child {
+    margin-bottom: 0;
+}
+
+a {
+    font-weight: 500;
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    opacity: 70%;
+}
+
+.bold-text {
+    font-weight: 500;
+}
+
+.social-icons a {
+    margin-bottom: 0;
+}
+
+.fa-brands {
+    font-size: 2rem;
+    padding-left: 1rem;
+    margin: 1rem;
+    transition: all 0.1s;
+}
+
+/* Section styles */
+
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright {
+    padding: 1%;
+    font-size: 1rem;
+    opacity: 70%;
+    background-color: rgb(30,30,30);
+}
+
+
+
+/* Styles */
+.bg-dark {
+    background-color: #1C2A2C;
+    color: white;
+}
+
+.bg-padded {
+    padding-bottom: 30%;
+}
+
+.light-text {
+    color: white;
+}
+
+
+/* Images */
+.landscape {padding-bottom: 65%;}
+.portrait {padding-bottom: 120%;}
+.square {padding-bottom: 100%;}
+
+
+.bg-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #24282B;
+}
+
+.img-hotel {
+    background-image: url("images/the-bunker-5.jpg");
+}
+
+.img-bed {
+    background-image: url("/images/the-bunker-1.jpg");
+}
+
+.img-hallway {
+    background-image: url("/images/the-bunker-3.jpg");
+}
+
+.img-lobby {
+    background-image: url("/images/the-bunker-4.jpg");
+}
+
+.img-bar {
+    background-image: url("/images/the-bunker-2.jpg");
+    background-position: 50% 60%;
+}
+
+.img-sheets {
+    background-image: url("/images/the-bunker-7.jpg");
+}
+
+.img-map {
+    background-image: url("/images/map-sydney.png");
+}
+
+.social-banner {
+    background-position: 0% 20%;
+}
 
 
 
