@@ -33,6 +33,10 @@ section {
     margin: 0;
 }
 
+[class*=col-], [class*=col_], [class~=col] {
+    padding: 0;
+}
+
 /* Utility classes */
 
 /* Text Utility Classes */
@@ -129,7 +133,7 @@ h4 {
 }
 
 h1 {
-    font-size: 13vw;
+    font-size: 12vw;
 }
 
 h2 {
